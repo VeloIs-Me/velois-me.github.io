@@ -1038,6 +1038,7 @@ body {
         }
         .textBadge__2b1f5 /* new text badge (right click on person in vc) */ {
             color: var(--text-0);
+	    background-color: var(--accent-2);
         }
 
         .unread__3b95d /* new unreads bar (channel list */ {
