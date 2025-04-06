@@ -1038,8 +1038,10 @@ body {
         }
         .textBadge__2b1f5 /* new text badge (right click on person in vc) */ {
             color: var(--text-0);
-	    background-color: var(--accent-2);
         }
+	.newBadge_faa96b textBadge__2b1f5 base__2b1f5 eyebrow__2b1f5 baseShapeRound__2b1f5 /* The "NEW" badge in forums and other places */ {
+            background-color: var(--accent-3);
+	}
 
         .unread__3b95d /* new unreads bar (channel list */ {
             color: var(--text-4);
