@@ -799,8 +799,8 @@ body {
         --text-secondary: var(--text-4);
         --text-warning: var(--yellow-1);
         --text-default: var(--text-3);
-        --text-feedback-critical: var(--red-1);
-        --text-feedback-positive: var(--green-1);
+        --text-feedback-critical: var(--status-dnd);
+        --text-feedback-positive: var(--accent-3);
         --text-feedback-info: red;
         --text-feedback-warning: red;
         --text-tertiary: var(--text-4);
