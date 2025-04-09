@@ -57,16 +57,16 @@ body {
         font-size: 15px;
         font-weight: inherit;
     }
-    rect.pointerEvents_44b0C[mask="url(#svg-mask-status-idle)"] {
+    .pointerEvents_44b0C[mask="url(#svg-mask-status-idle)"] {
   fill: hsl(50, 100%, 47%) !important;
     }
-    rect.pointerEvents_44b0C[mask="url(#svg-mask-status-dnd)"] {
+    .pointerEvents_44b0C[mask="url(#svg-mask-status-dnd)"] {
   fill: hsl(0, 93.80%, 44.30%) !important;
     }
-    rect.pointerEvents_44b0C[mask="url(#svg-mask-status-online)"] {
+    .pointerEvents_44b0C[mask="url(#svg-mask-status-online)"] {
   fill: hsl(130, 84%, 39%) !important;
     }
-    rect.pointerEvents_44b0C[mask="url(#svg-mask-status-streaming)"] {
+    .pointerEvents_44b0C[mask="url(#svg-mask-status-streaming)"] {
   fill: hsl(260, 60%, 60%) !important;
     }
     .header_c6bf1b {
