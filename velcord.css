@@ -75,11 +75,11 @@ body {
     }
 
     .sidebar_c48ade /* server list + channel list + user panel group */ {
-        margin: 0 0 var(--gap) var(--gap);
+        margin: 0 var(--gap) var(--gap) var(--gap);
     }
 
     .guilds_c48ade /* server list */ {
- margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--gap));
+        margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--gap));
         margin-right: var(--gap);
     }
     .guilds_c48ade + div:not(.sidebarList_c48ade) /* betterfolders */ {
@@ -93,9 +93,6 @@ body {
     }
     .listItem__650eb {
         width: 100%;
-    }
-    .scroller_ef3116 /* server list inner scroller */ {
-        padding-top: var(--custom-guild-list-padding);
     }
     .sidebarList_c48ade /* channel list */ {
         margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--gap));
@@ -228,10 +225,9 @@ body {
         height: auto;
     }
     .shop__08415 /* shop inner scroller */ {
-   margin-top: calc(var(--custom-channel-header-height) * -1 - 16px);
-    }
+        margin-top: calc(var(--custom-channel-header-height) * -1 - 16px);
 
-    .outer_c0bea0.panel_c0bea0 /* dm user panel */ {
+    .content_f75fb0 > .outer_c0bea0 /* dm user panel */ {
         margin-left: var(--gap);
         overflow: hidden;
         height: auto;
@@ -247,12 +243,6 @@ body {
         border-radius: var(--radius-md);
         box-sizing: border-box;
         height: 40px;
-    }
-
-    .callContainer_cb9592 /* vc container */ {
-        border-radius: var(--radius-lg) !important;
-        border: 1px solid var(--border-subtle);
-        overflow: hidden;
     }
 
     .container__01ae2 /* vc chat + titlebar group */ {
